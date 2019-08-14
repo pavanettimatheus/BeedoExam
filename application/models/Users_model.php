@@ -66,4 +66,13 @@ class Users_model extends CI_Model {
         return ['foundRows' => $foundRows, 'data' => $result];
     }
 
+      // Função Model Matheus Pavanetti
+     public function getTableModel() {
+        $this->db->select('id, name, created_at');
+        $this->db->from('users');
+        $query = $this->db->get();
+        return $query->result();
+
+    }
+
 }

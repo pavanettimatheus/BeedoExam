@@ -37,4 +37,16 @@ class UserListController extends CI_Controller {
 
         echo json_encode($res);
     }
+
+    // Função Controller Matheus Pavanetti 
+     public function getTable() {
+        header('Content-Type: application/json');
+        $this->load->model('Users_model');
+        $result = $this->Users_model->getTableModel();
+
+        $array["getTable"] = $result;
+
+        $resultToJson = json_encode($array, JSON_PRETTY_PRINT);
+        print_r($resultToJson);
+    }
 }
