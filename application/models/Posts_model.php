@@ -68,4 +68,13 @@ class Posts_model extends CI_Model {
         return ['foundRows' => $foundRows, 'data' => $result];
     }
 
+         // Função Model Matheus Pavanetti
+        public function getTableModel() {
+        $this->db->select('id, title, created_at');
+        $this->db->from('posts');
+        $query = $this->db->get();
+        return $query->result();
+
+    }
+
 }
