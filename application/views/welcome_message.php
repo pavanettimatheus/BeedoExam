@@ -43,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="card-body">
                 <h5 class="card-title">Card #1</h5>
                 <p class="card-text">Estão sendo exibidos mais posts do que existem.</p>
-                <a href="/posts" class="btn btn-primary">Go -></a>
+                <a href="<?php echo base_url(); ?>posts" class="btn btn-primary">Go -></a>
             </div>
         </div>
 
@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="card-body">
                 <h5 class="card-title">Card #2</h5>
                 <p class="card-text">O Datatables está com problema para ordenar por Data de Criação</p>
-                <a href="/users" class="btn btn-primary">Go -></a>
+                <a href="<?php echo base_url(); ?>users" class="btn btn-primary">Go -></a>
             </div>
         </div>
 
@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="card-body">
                 <h5 class="card-title">Card #3</h5>
                 <p class="card-text">Crie uma tela de listagem de Grupos</p>
-                <a href="/groups" class="btn btn-primary">Go -></a>
+                <a href="<?php echo base_url(); ?>groups" class="btn btn-primary">Go -></a>
             </div>
         </div>
     </div>

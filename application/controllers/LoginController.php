@@ -27,7 +27,6 @@ class LoginController extends CI_Controller {
 
         $this->session->set_userdata('team', $this->defaultModel->team);
 
-        $this->load->helper('url');
-        redirect('http://'.$_SERVER['HTTP_HOST'].'/home', 'refresh');
+       redirect(base_url().'home', 'refresh');
     }
 }
