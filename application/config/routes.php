@@ -56,7 +56,7 @@ $route['login'] = 'LoginController/login';
 $route['home'] = 'welcome';
 $route['users'] = 'UserListController';
 $route['users/get'] = 'UserListController/get';
-
+$route['groups'] = 'GroupListController';
 $route['posts'] = 'PostListController';
 $route['posts/get'] = 'PostListController/get';
 

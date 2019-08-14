@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="card-img-top" src="https://picsum.photos/400?random" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Card #1</h5>
-                <p class="card-text">Estão sendo exibidos mais posts do que existem.</p>
+                <p class="card-text">Estão sendo exibidos mais posts do que existem. <span style="color: lightgreen;"><b>{Feito}</b></span></p>
                 <a href="<?php echo base_url(); ?>posts" class="btn btn-primary">Go -></a>
             </div>
         </div>
@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="card-img-top" src="https://picsum.photos/399?random" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Card #2</h5>
-                <p class="card-text">O Datatables está com problema para ordenar por Data de Criação</p>
+                <p class="card-text">O Datatables está com problema para ordenar por Data de Criação <span style="color: lightgreen;"><b>{Feito}</b></span></p>
                 <a href="<?php echo base_url(); ?>users" class="btn btn-primary">Go -></a>
             </div>
         </div>
@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="card-img-top" src="https://picsum.photos/398?random" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Card #3</h5>
-                <p class="card-text">Crie uma tela de listagem de Grupos</p>
+                <p class="card-text">Crie uma tela de listagem de Grupos <span style="color: lightgreen;"><b>{Feito}</b></span></p>
                 <a href="<?php echo base_url(); ?>groups" class="btn btn-primary">Go -></a>
             </div>
         </div>
